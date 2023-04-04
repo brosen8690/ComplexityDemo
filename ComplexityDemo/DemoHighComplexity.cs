@@ -9,10 +9,9 @@ namespace ComplexityDemo
 {
     public class DemoHighComplexity
     {
-        public static int HighComplexityFunction(Param1 param1, Param2 param2)
+        public int HighComplexityFunction(DemoRepo repo, Param1 param1, Param2 param2)
         {
             // All of our validation
-            DemoRepo repo = new DemoRepo();
             var client = repo.GetClient();
             if (client == null)
             {

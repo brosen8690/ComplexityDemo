@@ -10,17 +10,17 @@ namespace ComplexityDemo
     {
         public DemoRepo() { }
 
-        public Client? GetClient()
+        public virtual Client? GetClient()
         {
             throw new NotImplementedException();
         }
 
-        public User? GetUser()
+        public virtual User? GetUser()
         {
             throw new NotImplementedException();
         }
 
-        public Plan? GetPlan()
+        public virtual Plan? GetPlan()
         {
             throw new NotImplementedException();
         }

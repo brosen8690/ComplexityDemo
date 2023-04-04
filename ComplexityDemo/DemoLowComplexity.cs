@@ -9,9 +9,9 @@ namespace ComplexityDemo
 {
     public class DemoLowComplexity
     {
-        public int LowComplexityFunction(Param1 param1, Param2 param2)
+        public int LowComplexityFunction(DemoRepo repo, Param1 param1, Param2 param2)
         {
-            ValidateEntities();
+            ValidateEntities(repo);
 
             if (param1 == Param1.Yes)
             {
@@ -20,9 +20,8 @@ namespace ComplexityDemo
             return HandleNo(param2);
         }
 
-        internal void ValidateEntities()
+        public virtual void ValidateEntities(DemoRepo repo)
         {
-            DemoRepo repo = new DemoRepo();
             var client = repo.GetClient();
             if (client == null)
             {
@@ -42,7 +41,7 @@ namespace ComplexityDemo
             }
         }
 
-        internal int HandleYes(Param2 param2)
+        public virtual int HandleYes(Param2 param2)
         {
             if (param2 == Param2.A)
             {
@@ -51,7 +50,7 @@ namespace ComplexityDemo
             return 2;
         }
 
-        internal int HandleNo(Param2 param2)
+        public virtual int HandleNo(Param2 param2)
         {
             if (param2 == Param2.A)
             {

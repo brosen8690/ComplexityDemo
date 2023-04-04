@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexityDemo", "ComplexityDemo\ComplexityDemo.csproj", "{38D54220-44FF-4F3E-9F1A-E52942C43ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexityDemo.Tests", "ComplexityDemo.Tests\ComplexityDemo.Tests.csproj", "{0788F7C8-F02C-4A4D-9075-81791E3ABE51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{38D54220-44FF-4F3E-9F1A-E52942C43ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D54220-44FF-4F3E-9F1A-E52942C43ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D54220-44FF-4F3E-9F1A-E52942C43ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0788F7C8-F02C-4A4D-9075-81791E3ABE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0788F7C8-F02C-4A4D-9075-81791E3ABE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0788F7C8-F02C-4A4D-9075-81791E3ABE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0788F7C8-F02C-4A4D-9075-81791E3ABE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
